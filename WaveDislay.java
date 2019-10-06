@@ -34,6 +34,7 @@ public class WaveDislay {
 		int cmin = 0;
 		int cmax = arr[0].length - 1;
 		int tno = arr.length * arr[0].length - 1;
+		
 		int counter = 0;
 		while (counter <= tno) {
 			if (cmin % 2 == 0) {
